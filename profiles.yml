@@ -1,0 +1,10 @@
+epm:
+  target: dev
+  outputs:
+    dev:
+      type: teradata
+      server: 40.121.65.25
+      schema: exito
+      username: pocuser
+      password: pocuser
+      tmode: ANSI
